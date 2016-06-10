@@ -1,0 +1,16 @@
+Thread Pooling:
+
+
+c1- Request - T1  new Thread
+c2 = R	    - T2  new Thread
+
+
+T1- destroyed after finishing the assigned task.
+T2- destroyed after finishing the assigned task.
+
+c1- Request - T1 - new Thread
+c2 = R	    - T2   new Thread
+
+Thread Pooling = 5 threads pool,
+
+Demon Thread:

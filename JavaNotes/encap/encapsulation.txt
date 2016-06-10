@@ -1,0 +1,35 @@
+OOPS
+
+Features of OOPS
+1. class
+2. object
+3. Encapsulation
+
+describe 3 pillars of OOPS
+1. Encapsulation
+2. Inheritance
+3. Polymorphism
+
+Encapsulation - it is the concept of data hiding within the class, so that it cannot accessed directly from outside the class.
+
+In order to do so we use different access modifiers i.e. public, private, protected, default.
+
+public - it has the global access within class, child class, outside class, outside package (folder / director)
+
+scope: global, wider
+security: very less / no security
+
+protected - it has the access within class, child class, outside class, but not outside package (folder / director)
+
+default - it has the access within class, child class in the same package, outside class in the same package, but not outside package (folder / director), default has less accessibility than protected.
+
+private- it has the access only within class, but not in the child class, not outside class, not outside package (folder / director)
+
+scope: very limited, norrow scope
+security: very hight
+
+class is like a family
+
+
+
+

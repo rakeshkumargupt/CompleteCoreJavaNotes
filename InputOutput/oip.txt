@@ -1,0 +1,102 @@
+import java.io.*;
+
+public class phoneBook {
+   private ObjectOutputStream output;
+   private ObjectInputStream input;
+   File fileName = new File("d:\\java\\data\\phone.dat");
+
+   public static void main(String[] args) {
+      phoneBook pb = new phoneBook();
+      pb.writeFile(); // open, write and close the file
+      pb.readFile(); // open, read and close the file
+   }
+
+   public void writeFile() {
+
+      // I could have put this into an array which would have told me how many
+      // records i have, it could then have be used in the readFile method below
+      // but lets keep things very simple
+      Record r1 = new Record("Paul Valle", "0207-568-789");
+      Record r2 = new Record("Lorraine Valle", "0207-345-356");
+      Record r3 = new Record("Dominic Valle", "0207-765-693");
+      Record r4 = new Record("Jessica Valle", "0207-789-876");
+
+      try {
+         // Open a file handle for writing
+         output = new ObjectOutputStream( new FileOutputStream( fileName));
+
+         // Write some data to the file it could throw
+         // InvalidClassException or NotSerializableException exceptions
+         output.writeObject( r1 );
+         output.writeObject( r2 );
+         output.writeObject( r3 );
+         output.writeObject( r4 );
+
+         // Flush the ObjectOutputStream. This will write any buffered
+         // output bytes and flush through to the FileOutputStream
+         output.flush();
+
+         // Close the file
+         output.close();
+      } catch (InvalidClassException icex) {
+         System.out.println("Invalid Class");
+      } catch (NotSerializableException nsex) {
+         System.out.println("Object is not serializable");
+      } catch (IOException e) {
+         System.out.println("Problems either flushing or closing file");
+      }
+   }
+
+   public void readFile() {
+      Record r; // this object will hold the records when retrieved from the file
+
+      try {
+         // Open the file handle for reading
+         input = new ObjectInputStream( new FileInputStream(fileName));
+
+         // I know i have 4 records so lets read them, this is where i could have used the array
+         // by using the length of the array i would have know how many records i have.
+         for (int i = 0; i < 4; i++ ) {
+            // Here we implicity cast the retrieved Object
+            r = ( Record ) input.readObject();
+            System.out.println("Name: " + r.getName() + " Phone: " + r.getPhone() );
+         }
+
+         // Close the file
+         input.close();
+
+      } catch (EOFException eofex) {
+         System.out.println("No more records to read");
+      } catch (ClassNotFoundException cnfex) {
+         System.out.println("Unable to create object - class not found");
+      } catch (IOException e ) {
+         System.out.println("Unable to close file");
+      }
+   }
+}
+
+// Serialization involves saving the current state of an object to a stream,
+// and restoring an equivalent object from that stream.
+class Record implements Serializable {
+
+   private String name;
+   private String phone;
+
+   // Constructor
+   public Record() { this ("", ""); }
+
+   // Overloaded Constructor
+   public Record(String n, String p) {
+      name = n;
+      phone = p;
+   }
+
+   // The get and set methods
+   public void setName(String n) { name = n; }
+
+   public void setPhone(String p) { phone = p; }
+
+   public String getName() { return name; }
+
+   public String getPhone() { return phone; }
+}

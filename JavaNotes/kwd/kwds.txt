@@ -1,0 +1,65 @@
+some important keywords:
+
+Explain the uses of final keyword in java:
+
+1. final keyword - A final keyword is used in the following ways in java
+
+a. to define constant
+b. to prevent the inheritance of the class
+final class myclass
+{
+
+void hello() { System.out.println("hello from myclass"); }
+void welcome() { System.out.println("welcome from myclass"); }
+}
+
+class myclass2 extends myclass
+{
+void hello() { System.out.println("hello from myclass2"); }
+void welcome() { System.out.println("welcome from myclass2"); }
+
+}
+
+class test
+{
+public static void main(String args[])
+{
+myclass2 obj = new  myclass2();
+obj.hello();
+obj.welcome();
+}
+}
+
+c. to prevent method overriding
+class myclass
+{
+
+final void hello() { System.out.println("hello from myclass"); }
+void welcome() { System.out.println("welcome from myclass"); }
+}
+
+class myclass2 extends myclass
+{
+void hello() { System.out.println("hello from myclass2"); }
+void welcome() { System.out.println("welcome from myclass2"); }
+
+}
+
+class test
+{
+public static void main(String args[])
+{
+myclass2 obj = new  myclass2();
+obj.hello();
+obj.welcome();
+}
+}
+
+super and this keyword: the super keyword is used to refer the member of the base of parent class while this keyword is used to refer member of the current class.
+
+instanceOf operator - it is used to find the whether the object is instance of the given type or not, it can be useful for avoiding the type casting error due to mismtach types.
+
+it will return true on success.
+
+
+

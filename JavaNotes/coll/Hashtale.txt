@@ -1,0 +1,56 @@
+HashTable - it allows us to add the data in the form of key-value- pair, the key can be alphanumeric, it cannot be duplicate, the value can be accessed by providing the unique key, the value can be duplicate.
+
+it is also defined in the java.util package.
+
+example:
+
+Hashtable h = new Hashtable();
+h.put("Google","http://www.google.com");
+
+here 
+put() - is used to insert the data in the HashTable
+get() - is used to fetch the data for the given key
+in the above example Google is a key so it cannot be duplicate, while the url is the value it can be duplicate.
+
+keys() - it will retrieve all the keys from the collection, it will return an enumeration.
+
+hasMoreElements() - return true if collection has some item
+nextElement() - to get the data from the
+
+
+enum days {mon,tue,wed,thur,fri,sat,sun } 
+
+names {} 
+
+import java.util.*;
+
+public class HTDemo1 {
+
+    public static void main(String[] args) {
+Hashtable h = new Hashtable();
+h.put("Google","http://www.google.com");
+h.put("Yahool","http://www.yahoo.com");
+h.put("Ram2",14000);
+h.put("Ram4",15000);
+
+Enumeration names;
+String str;
+double bal;
+names = h.keys(); //it will retrieve all the keys from the collection
+//hasMoreElements() - return true if collection has some item
+
+while(names.hasMoreElements()) {
+str = (String) names.nextElement();//to get the data from the collection
+System.out.println(str + ": " +
+h.get(str)); //to get the value for the given key
+
+    }
+
+bal = ((Integer)h.get("Ram2")).doubleValue();
+h.put("Ram2", new Double(bal+1000));
+System.out.println("Ram2's new balance: " +
+h.get("Ram2"));
+    
+}
+}
+

@@ -1,0 +1,6 @@
+finally block- 
+1. it will just complete the try block but will not handle the error / exception
+
+2. we can have only one finally block for a try
+
+3. finally must be at the end of all catch block if any

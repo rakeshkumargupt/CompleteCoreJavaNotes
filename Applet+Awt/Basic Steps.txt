@@ -1,0 +1,26 @@
+Designing GUI:
+
+1. Create object of the required types i.e. button, textfield, label etc.
+
+2. set the necessary properties of the objects
+
+3. add the object in the container
+
+Event Handling:
+
+1. register the object for appropriate event i.e. ActionListener for Button
+
+2. Write the appropriate method for the listener
+
+3. Perform the necessary task inside the method body
+
+Note: we have to import the java.awt.event.* package for event handling
+
+
+Form Desigining
+
+1. Use appropriate component/control
+2. components important properties and method
+3. components related event listener
+4. use appropriate layout manager to place the components
+

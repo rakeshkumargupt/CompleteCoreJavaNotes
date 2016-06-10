@@ -1,0 +1,20 @@
+JCF - Java Collection Framework - 
+
+it is available in the java.util package
+
+Types of Collection Classes in the JCF:
+
+ArrayList - it is used to add, remove items in the list, we don't have to specify the size, as we add the data the size will grow,
+and when the data is removed the size will automatically shrink.
+it has following useful methods:
+add() - to add new item in the list
+remove() - to remove item from list
+size() - to find the total elements in the list
+get() - to get the data from the given index position
+set() - to change or update the data for the given index position
+contains() - to check the existence of the given item in the list
+clear() - to remove all the data from the list
+mylist.indexOf() - to find the index position of the given item if exists
+IsEmpty() - to check whether the list is empty or not.
+
+

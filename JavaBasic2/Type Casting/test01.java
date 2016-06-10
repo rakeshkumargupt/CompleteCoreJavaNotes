@@ -1,0 +1,10 @@
+class test01
+{
+public static void main(String args[])
+{
+	int i=5;
+	String j="10";
+
+	int result = i+j;
+}
+}

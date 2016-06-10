@@ -1,0 +1,22 @@
+Adapter Classes - are used to provide the blank implementation of the interfaces that have more than one methods i.e.
+
+MouseListener -> MouseAdapter (5) methods
+WindowListener->WindowAdapter (7) methods
+KeyListener->KeyAdapter       (3) methods
+
+ActionListener-> No Adapter
+ItemListener->No Adapter
+
+class myclass extends Applet
+{
+}
+
+Anynymous Class - When a class has no name then this type of class is called anonymous class.
+
+
+Inner Class / Nested class - When a class is defined inside another class then it is called inner class, the inner class can access the member of outer class directly but the outer class cannot access the member of inner class directly.
+
+Concrete class
+final class
+abstract class
+

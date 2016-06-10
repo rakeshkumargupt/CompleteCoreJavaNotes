@@ -1,0 +1,54 @@
+try 
+catch
+single try multiple catch
+try - finally
+try catch finally
+
+Note: try block can be nested, we can have one try inside another try block, the catch block will refer to its nearest try block, all the try must have catch or finally block to complete them.
+
+try 
+{
+int a,b,c;
+	try 
+	{ 
+		//reading task;
+	}
+}
+	catch(Exception ex)
+	{
+	}
+
+catch(Exception ex)
+{
+}
+
+throw - to explicitly raise the exception in case of user defined / custom exception, although it can be used to raise the pre-defined exceptions as well.
+
+User defined -> Name is not known to the JVM i.e. abcException
+		Condition for the exception is not known to the JVM.
+
+1. specify the condition
+2. raise the appropriate exception based upon the condition
+
+Create User defined Exception:
+
+In order to create the user defined exception we have to perform the following task:
+
+1. Create a class that must inherit Exception, Throwable Class class
+2. provide the error message to be displayed in case of error
+3. provide the condition for the exception
+4. raise the exception using throw keyword
+5. handle the exeption inside the catch block
+
+Object Class
+	Throwable
+		Exception
+			DivideByZero
+			AirthmeticException
+			IOException
+
+
+
+
+
+

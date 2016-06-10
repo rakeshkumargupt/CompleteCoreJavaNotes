@@ -1,0 +1,1 @@
+List - it is an interface for representing the list in the program, it is in the generic form that can be made more specific by providing a type i.e. integer, string or any other object.

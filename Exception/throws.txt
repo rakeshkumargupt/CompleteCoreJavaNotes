@@ -1,0 +1,19 @@
+throws keyword - it is used to report the unhandled exception inside a function, if the exception is not handled inside the function.
+
+unreported exception:
+1. either catch the exception
+2. or report about the exception so that other user may know it
+
+otherwise compilation error will be generated.
+
+if reported but not handled then program will compile but will not work or will get terminted.
+
+if reported and handled then program will compile and will execute
+
+Throwable Exception class->
+
+System.IO;
+
+void main() throws IOException { }
+
+

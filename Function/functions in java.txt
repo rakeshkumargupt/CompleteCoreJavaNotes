@@ -1,0 +1,63 @@
+Function in Java - 
+
+What is Function? - It is set of instructions to perform a particular task.
+
+		    it is a named block that can be invoked whenever required.
+
+		    it encourages the concept of modularily and reusability of 
+		     the code.
+
+Types of Functions - 
+
+1. Pre-defined Function / Library Function / Built-in function
+2. User-Defined Function /Custom Function - create by user/programmer as per the need.
+
+Signature of Function- 
+
+<access_modifier> <return_type> <function_name>(parameters....)
+{
+	
+}
+ex.
+public int calculate(int a, int b)
+{
+	return a+b;
+}
+
+4 types of functions based upon parameters and return type
+
+1. no return, no parameter i.e. void sum() { }
+2. no return, with parameter i.e. void sum(int a) { }
+3. return but no parameter i.e. int sum() { }
+4. return with parameter i.e. int sum(int a) { }
+
+simple function
+recursive function
+function ->passing simple parameters, passing object
+
+Parameter passing techinque:
+1. call by value
+2. call by reference
+
+employee_management
+salary_calculation
+
+getemployee_info(int empid,int month) { } 
+
+get_attendance(int empid,int month)
+get_employees_leaves(int empid)
+get_salary_details(int empid)
+calculate_earning(int empid, int month) { } 
+calculate_deduction(int empid,int month)
+display_salary(int empid)
+print_salary_slip(int empid)
+
+Pre-defined Function-
+System.out.print()
+readLine()
+nextLine()
+
+read - InputStream-> Device Connect->Keyboard->buffer->variable flush
+
+High Level
+Low Level

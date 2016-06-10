@@ -1,0 +1,29 @@
+RMI - Remote Method Invocation:
+
+The concept of RMI provides the facility to develope distributed application using java, using this we can divide and distribute a large program into separate modules and this modules can be hosted on a different server.
+
+The user / client can connect to a server and get the requested method from any location.
+
+Advantages of using RMI:
+
+1. Since application is divided into many parts and place or different locations so there is a workload sharing, i.e. rather than once server we can have many server providing the different types of services.
+
+2. Securtiy - because of the distribute application we can have better security of modules by placing them into different locations for different types of users.
+
+3. Easy to maintain - the applications are easy to maintain and manage.
+
+4. Easy to deploy - the application can be easily deployed as only the part of application has to be configured rather than the entire application.
+
+C/S Architecture: A client server architecture is based upon the client machine from where the user will send the request and the server machine that will listen to the request of the client and will send the response back to the client.
+
+In RMI we have to create different interfaces and classes some of that will be placed on the server machine and other will be placed on the client machine.
+
+1. java.rmi is the package for RMI
+2. All remote interfaces must extend the
+Remote interface, which is part of java.rmi
+3. All remote methods can
+throw a RemoteException.
+
+
+
+

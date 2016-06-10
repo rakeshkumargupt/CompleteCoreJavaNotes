@@ -1,0 +1,64 @@
+method = function
+method = function
+
+library i.e. c printf();
+
+System.out.println(); //method
+
+public int calculate (int a, int b) { } 
+
+public int calculate (int a, int b)  { }
+
+class { 
+data members
+member functions
+}
+
+member of class or class member  {data member + member function }
+
+accessing function of a class:
+
+1. using object of the class
+2. using static keyword i.e. accessing without creating the object
+
+Instance method = any method that is accessed using the object of the class
+Non instance or class method that is accessed using classname.membername
+
+//
+Unit 1 Java
+1. writing a java program and executing the java program
+2. variable, constant declare
+3. conditional statements
+4. loops
+5. array
+6. function
+//
+Unit 2 OOPS
+
+classes
+types of classes
+objects
+OOPS concepts i.e. encapsulation, inheritance, polymorphism, abstraction, interface
+package
+
+Unit 3
+Exception Handling
+File Handling
+Multi threading
+
+Unit 4
+Library Package, Util package, 
+Collection Framework
+Reflection
+
+Unit 5
+Awt
+Applet
+Swings
+
+
+
+
+
+
+

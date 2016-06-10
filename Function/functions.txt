@@ -1,0 +1,72 @@
+Function - is a set of instructions put together to perform a particular task. it encourages the resuability of code. It also provides the modularity of code.
+
+It can be called anywhere in the program in the given scope.
+
+in java function is generally referred as method.
+
+function can be of the following types:
+
+1. Built-in /library / Pre-defined function - These are provided by the language in form of some library.
+
+2. Custom / User Defined function - these are created by user/programmer for the specific need i.e. calculating the leaves of employee, generating the monthly payroll for a department.
+
+Signature of Function:
+
+[Access Modifier] <return type> <function name>([parameters])
+{
+//body
+} 
+Access Modifier -public | private | protected | default
+return type  - void | int | String | object
+function name - any valid name
+parameters
+
+
+
+class ABC
+{
+int a;   //Data Member of class
+
+void show() { } Member Function of Class 
+
+}
+
+Member = Data Member + Member Function
+
+function vs. method - both are same.
+
+
+java
+class Employee 
+{
+int a; //variable
+}
+
+C#
+class Employee 
+{
+int a; //Field
+}
+
+snippet-> code snippet
+
+calculate_attendance(int id) { }
+calculate_leaves(int id) { }
+calculate_allowance(int id) { }
+
+calculate_salary(int id) 
+{
+calculate_attendance(101);
+calculate_leaves(101);
+calculate_allowance(101);
+}
+leave_application(int id)
+calculate_attendance(101);
+
+nested function? when we call a function inside another function then it is called nested function.
+
+sqrt(sum(10,2));
+order of execution-> inner most function will be executed first.
+
+
+

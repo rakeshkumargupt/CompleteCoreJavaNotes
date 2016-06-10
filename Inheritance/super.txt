@@ -1,0 +1,14 @@
+super keyword - it is used to refer the member of the parent or super class.
+
+this keyword - it is used to refer the member of the current class, to avoid the conflict in case of same member name inside a function / constructor
+
+class A {x= 5}
+
+class B extends A {super.x x= 10 }
+
+class C extends B {super.x x= 20 }
+
+class D extends C { 
+x= 30;
+super.x 
+} 

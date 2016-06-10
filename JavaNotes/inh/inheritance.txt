@@ -1,0 +1,62 @@
+Inheritance -  it is the process by which a class acquire the properties and behaviour of another class.
+
+The class that is being inherited is called the super / base or parent class and the class the is inheriting is called sub / child class.
+
+The concept of inheritance provides the resuability of the code.
+
+Types of Inheritance:
+
+1. Single Level
+2. Multi Level
+3. Hierarchical
+
+Note:
+java does not supports the multiple inheritance, but it can be achieved using interface.
+
+the concept of multiple inheritance was removed in order to avoid the ambiguity / confilct while calling the members having the same name in more than classes.
+
+class Employee
+{
+	empid,name,dept,email;
+}
+
+class IT_Employee extends Employee
+{
+}
+class Production_Employee extends Employee
+{
+}
+
+
+Inheritance vs. Containment:
+
+In case of inheritance the properites and behaviour are inherited in the class i.e. it can be transferred to its child class, but in case of containment the properties and behaviours are accessed only be setting up a reference of the class but they are not actually inherited in the class hence cannot be transferred to its child class.
+
+Aggregation /Generalization - in this we place all the common attributes and behaviours of the object
+
+/Specialization
+
+
+class Snake extends Reptiles
+{
+
+}
+
+
+abstract class Autombiles
+{
+	model_no,fuel_type,engine_type,manufacuture,wheels
+start(),stop()
+}
+ADT = abstract data types
+class Mecedese extends Automobiles
+{
+}
+class Maruti extends Automobiles
+{
+wheel=5
+}
+class Bike extends Automobiles
+{
+wheel=2
+}

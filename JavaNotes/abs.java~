@@ -1,0 +1,18 @@
+import java.util.*;
+abstract class abc{
+abstract void multi(int a, int b);
+static int sum(int i, int j){
+System.out.println(i+j);
+return 0;
+}
+}
+
+
+class abs extends abc{
+     public static void main(String args[]){
+      System.out.println(sum(5,4));
+     }
+     void multi(int m, int n){
+     }
+	
+}

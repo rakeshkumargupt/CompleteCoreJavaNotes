@@ -1,0 +1,24 @@
+class A
+{
+int i;
+int j;
+
+void display() { }
+}
+
+class B extends A
+{
+void display() { } 
+}
+
+class C extends B
+{
+int i;
+int j;
+
+void f() { super.i;
+super.display(); //parent
+)
+}
+
+

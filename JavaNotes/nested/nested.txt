@@ -1,0 +1,4 @@
+Nested or Inner class: A nested or inner class is bound by the scope of the outer class, it cannot be directly accessed, the inner class can access the member of the outer class directly but the outer class cannot access the member of its inner class without making its object.
+
+the inner class can be declare private or protected.
+

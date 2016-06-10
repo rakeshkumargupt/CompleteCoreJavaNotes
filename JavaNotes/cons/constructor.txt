@@ -1,0 +1,37 @@
+Constructor - 
+
+A constructor is like a special method/function that is used to initialize the data member of the class. It has the same name as the class name and it is implicitly called when the object of the class is created.
+
+A constructor does not returns any value.
+
+Constructors can be overloaded.
+
+Types of Constructor:
+
+1. Default / Non Parametersied constructor - When we don't define any constructor then the default constructor is used to initialize the object as per the default value of the data type.
+
+and when we define a constructor with no argument then it is called the non parameterised constructor
+
+2. Parameterised Constructor - A parameterised constructor is used to supply the value while initializing the object of the class.
+
+3. Copy constructor - It uses the object as the parameter to initialize the another object of the class with the same value.
+
+Deep copy vs. shallow copy - in case of deep copy we copy the value from the object but in case of shallow copy we copy the address or reference.
+
+What is the Role of constructor apart from initializing the data member of a class?
+
+A constructor can also be used for automation task i.e. calling some other method of the class.
+
+Employee emp = new Employee();
+
+Method vs. Constructor:
+
+1. Method can have any valid name, but a construcutor name can be only the class name
+
+2. Method may or may not return the value but a constructor does not returns any value
+
+3. Method can be called any no. of time and it is called explicitly but a constructor is called implicitly
+
+4. A constructor is not inherited but a method is inherited
+
+

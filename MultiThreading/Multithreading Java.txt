@@ -1,0 +1,154 @@
+
+Using Multithreading : 
+
+it is the process by which we can have multiple task in an application
+by sharing the cpu time. 
+
+	The thread can be defined as the light weight process by which we can have no. of threads in a process running asynchronsly to perform different kind of tasks.	
+
+All the threads have the independent path of execution, and they share the same address space.
+
+STA - Single Threaded Application	
+MTA - Multi "		"
+
+CPU Total Time =  Divided into time slice , which is allocted to individual threads one by one by context switching.
+
+Thread vs process
+Process Heavy weight - 
+Thread is Light weight
+
+Creating Thread : 
+
+Two ways :
+	1. Extending the Thread Class
+	2. Implementing the Runnable Interface
+
+	if a class is willing to use thread then it can extends the thread class i.e.
+
+	class A extends Thread
+	{
+	} // ok
+
+
+but
+
+class A extends B, Thread
+	{
+	} // ok
+	but if a class is willing to inherit another class i.e. B as well as it also wants to use Threading then since multiple inheritance is not supported by java so it can be handle with the help of implementing the Runnable interface i.e.
+
+	class A extends B implements Runnable
+	{
+	} //ok
+
+	class Keyboard { }
+	class Mouse { }
+
+
+class LoginForm extends Keyboard { } //mouse will not be available
+
+	class LoginForm extends Mouse{ } //Keyboard will not be available
+
+But
+
+	interface Keyboard { }
+	interface Mouse { }
+
+	class LoginForm implements Keyboard, Mouse
+	{
+	}
+
+class ABC extends Thread
+{
+void run()  - entry point for the thread
+{
+}
+}
+
+class A 
+{
+
+for(int a=0;a<50;a++)
+sop(a)
+
+for(int b=0;b<50;b++)
+sop(b)
+
+for(int c=0;c<50;c++)
+sop(c)
+
+}
+
+cpu 1 min 
+60 sec  / 3 threads
+1 - 20  [mili] secs allocate time slice
+
+
+
+class XYZ Implements Runnable
+{
+void run()  - entry point for the thread
+{
+}
+}
+
+Process - 
+1. create  a class that will inherit the Thread class or Runnable Interface
+2. Implement the run()
+3. Create another class (having main method or startup point) to call the thread by creating its object
+4. using the start() to run the thread
+
+
+join() - is used to synchronised the threads.
+one after another
+child completed --- main finish
+isAlive  - to check whether the thread is active or not
+
+synchronized - this keyword can be used with run method to
+make the synchronous execution of the threads
+
+currentThread() - this method returns the name of the currently
+running thread
+
+setName() - to change the name of thread
+getName()- to get the name
+
+Thread Priority:
+
+to determine the priority for execution of thread in a program.
+
+all the threads have the normal priority by default that 5
+
+Highest = 10
+Above Normal
+Normal  = 5
+Below Normal
+Lowest = 1
+
+T1
+T2			x 
+T3
+
+Highest priorty thread get more cpu time than lowest priority and they get the preference.
+
+setPriority() - to change the priority
+getPriority() - to get the priority of a thread
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

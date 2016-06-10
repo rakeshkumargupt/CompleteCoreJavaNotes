@@ -1,0 +1,34 @@
+class abc { }
+
+class xyz extends abc implements Runnable
+{
+}
+
+Runnable Interface 
+Thread class
+
+run() - it is the starting point of the thread, every class must implement the run(), the task of the thread is defined in the run()
+
+Thread program must handle the InterruptedException.
+
+start() - to begin the execution of the thread from the run()
+
+currentThread() - is used to find the current working thread.
+it will return the following: 
+1. thread name
+2. thread priority
+3. thread controller
+setName() - to change the name of the thread
+getName() - to get the name of the thread
+
+join() - it is used to join / synchronize the thread.
+
+t1 - finish- t2 - finish - t3 - finish sync
+t1 -t2 -t3  t3 finish t1 finish t2 finish asynchronous
+isAlive() - it return whether the given thread is alive / active or not, it returns true / false
+
+synchronize keyword - it is also used for synchronization of the method in threading.
+
+
+
+

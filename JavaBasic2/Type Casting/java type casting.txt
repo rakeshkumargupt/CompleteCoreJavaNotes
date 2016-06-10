@@ -1,0 +1,50 @@
+Type Casting - ? Why it is required - in order to have compatibilty of the data in the given expression:
+
+int i=5;
+String str="10";
+
+int result = i+str; //15
+number = + math
+String  + concatenate =  510
+
+Automatic Type Promotion:
+
+literals? it is the value assigned into a variable i.e
+
+string literals =  always in  " " i.e. A = "hello";
+char literals = in ' ' i.e. ch = 'A';
+boolean literal = either true or false; b = false;
+integer literals = whole number i.e. i = 5;
+floating point literal = decimal precision i.e. i = 5.17;
+
+primitive
+number
+char
+string
+boolean
+
+reference class
+user defined type
+
+Employee
+Student
+Doctor
+Patient
+
+(Employee)
+(Doctor)
+(Patient) 
+
+Autoboxing: java automatically handles the data storage between value type to reference type and vice-versa it called autoboxing.
+
+Boxing is the process of converting from value type to reference type and Unboxing is the process of converting from reference type to value type.
+
+Object - object is the based type of all the data types in java, it can store any kind of value or reference type.
+
+
+
+
+
+
+
+

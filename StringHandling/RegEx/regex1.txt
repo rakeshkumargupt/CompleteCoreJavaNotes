@@ -1,0 +1,103 @@
+Range - [-]
+
+i.e. [0-9] - only digit
+
+{min,max}
+
+or [0-9]{4,10}
+or [0-9]{4}
+or [0-9]{4,}
+
+i.e. [a-z] - only lower alpha
+
+{min,max}
+
+or [a-z]{4,10}
+or [a-z]{4}
+or [a-z]{4,}
+
+i.e. [A-Z] - only upper alpha
+
+i.e. [a-zA-Z] - lower + upper alpha
+
+i.e. [a-z0-9] - lower + upper alpha
+
+i.e. [a-zA-Z0-9] - lower + upper alpha + digit
+
+example:
+Pattern p = Pattern.compile("^[a-z]{3,5}$");
+        Matcher m = p.matcher("h45ello");
+        if(m.matches())
+            System.out.println("ok");
+        else
+            System.out.println("error");
+
+example alphanumeric
+  Pattern p = Pattern.compile("[a-zA-Z0-9]{3,5}");
+        Matcher m = p.matcher("He2lo");
+        if(m.matches())
+            System.out.println("ok");
+        else
+            System.out.println("error");
+
+example 10 digit mobile number
+ Scanner scn = new Scanner(System.in);
+        System.out.print("Enter 10 digits Mobile Number: ");
+        String mobile = scn.nextLine();
+        
+        Pattern p = Pattern.compile("[0-9]{10}");
+        Matcher m = p.matcher(mobile);
+        if(m.matches())
+            System.out.println("Mobile number is correct!");
+        else
+            System.out.println("Mobile number is incorrect");
+
+example mobile number starting with 7,8 or 9
+ Scanner scn = new Scanner(System.in);
+        System.out.print("Enter 10 digits Mobile Number: ");
+        String mobile = scn.nextLine();
+        
+        Pattern p = Pattern.compile("[7-9]{1}[0-9]{9}");
+        Matcher m = p.matcher(mobile);
+        if(m.matches())
+            System.out.println("Mobile number is correct!");
+        else
+            System.out.println("Mobile number is incorrect");
+
+example email
+Scanner scn = new Scanner(System.in);
+        System.out.print("Enter Email Number: ");
+        String mobile = scn.nextLine();
+        
+        Pattern p = Pattern.compile("[a-z0-9]{1,}@[a-z]{1,}[.][a-z]{1,}");
+        Matcher m = p.matcher(mobile);
+        if(m.matches())
+            System.out.println("Email id is correct!");
+        else
+            System.out.println("Email id is incorrect");
+
+Pincode verification using Digit \d
+Scanner scn = new Scanner(System.in);
+        System.out.print("Enter Pincode Number: ");
+        String mobile = scn.nextLine();
+        
+        Pattern p = Pattern.compile("\\d{6}");
+        Matcher m = p.matcher(mobile);
+        if(m.matches())
+            System.out.println("pincode is correct!");
+        else
+            System.out.println("pincode is incorrect");
+
+Scanner scn = new Scanner(System.in);
+        System.out.print("Enter date Number: ");
+        String mobile = scn.nextLine();
+        
+        Pattern p = Pattern.compile("\\d{1,2}-\\d{1,2}-\\d{4}");
+        Matcher m = p.matcher(mobile);
+        if(m.matches())
+            System.out.println("date is correct!");
+        else
+            System.out.println("date is incorrect");
+
+
+

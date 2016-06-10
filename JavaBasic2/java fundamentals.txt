@@ -1,0 +1,246 @@
+Language Fundamentals:
+
+Variable: It is placeholder in the memory, we can store and manipulate data in it. It has as data type associated with it that will determine that what kind of value can be stored in it.
+ 
+Syntax:
+	<variable_type> <identifier_name>=[value];
+
+	ex.
+	
+	int i;
+
+	or
+	int i=10;
+
+Note:
+<> - mandatory
+[] = optional
+ | = or
+
+What is Data Type: It determines the type of values allowed, it can be categorized as follows:
+
+a. primitive or non-primitive types
+b. simple or complex types
+c. value types or reference types
+
+Java is fully OOPS or Not?
+
+Wrapper Classes: These classes are used to handle the primitive types so that it can be treated as an object in your program.
+
+Integer.parseInt(args[0]);
+
+Constant: It has fixed value that cannot be changed during the program. it must be declared and initialized at the same line.
+
+The final keyword used to declare constant.
+
+final int a=10;
+
+Note: We have following types of Pre-Defined Stream in java
+System.In - Read - Keyboard
+System.Out - display - VDU / Monitor
+System.err - to display error / VDU / Monitor
+
+Scanner is class defined in the java.util package.
+
+Scanner obj = new Scanner(System.in); // scanner class object created
+
+
+literals: literals is values assigned into a variable or constant
+
+a. String literal = it is enclosed " " and can accept any value / number / special chars
+
+b. char literal - It is enclose in ' ' and can accept any value / number / special chars
+
+c. boolean literal - it can accept true/false / 0 or 1
+
+d. Numeric Literal
+
+	a. Integer literal - 0-9 but not decimal value
+	b. floating point - can store 0-9 along with decimal
+
+Data Type Casting: 
+
+Compatibility in the given expression
+
+A x 12 = error  - 
+String s  = "10";
+int x = 5;
+
+int result = s * x; //error
+
+int result = Integer.parseInt(s) * x; //result = 50;
+
+String s  = "A";
+int x = 5;
+
+int result = s * x; //error
+
+int result = Integer.parseInt(s) * x; //error;
+
+s =?
+Types of Data Type Casting:
+
+1. Implicit Type Casting: it is automatically handled by the compiler of the language
+
+2. Explicit Types Casting: when a user writes the code to perform the type casting.
+
+3. Automatic Type Promotion:
+
+Cast Opeartor - ? () 
+char c =  (char)x;
+
+
+Parsing Method - Wrapper Classes
+
+Integer.parseInt();
+Double.parseDouble();
+String.valueOf();
+toString();
+
+short i;
+long j;
+short c;
+
+long c = i * j;
+
+Narrow and Wideing of variable/constant:
+
+short -> long Wideing
+long -> short Narrowing 
+
+long i=2;
+short j=i;
+
+int -> float; i=10 10.00
+float->int; 12.75  12
+
+Type Safe Programming Language:
+
+
+Flow Controls Statements: it is used to manage the flow of execution in your program, it can be categorized as follows:
+
+1. Conditional Statement: These are used for decision making based on the given parameters:
+
+	a. if statement
+	b. if else 
+	c. if else if ladder
+	d. nested if
+	e. switch statement
+	f. ternary operator i.e. short for if else
+
+2. Loops / Iteration: to repeat the the given task for the specified number of times:
+
+	a. pre-tested / entry control loop
+		i. for loop
+		ii. while
+		iii. extended for / advance for loop /foreach
+	b. post-tested / exit control loop - it will execute at least once, because condition is checked at the end of the loop.
+
+		i. do while loop
+
+3. Jump statement: to skip /terminate the loop of locating some other location in the program.
+
+	i. break
+	ii. continue
+	iii  return
+	iv goto
+		
+3. Jump Statement
+
+
+
+  result = (condition) ?  statement_1 : statement_2
+
+	int x=50;
+	String result;
+	result = (x >=50) " Pass " : "Fail";
+	print(result);
+
+	if(x >=50) pass else fail
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Naming Convension for Class / Interface:
+
+Start from Capital Letter and then capitilize first char of every word
+
+class HelloWorldApplication
+{
+}
+interface HelloIndia
+{
+}
+
+Naming Convention for Method / function:
+
+start from small letter and then capitilize first char of every word
+
+class AddEmployeeAttendance
+{
+addEmployeeAttendance()
+	{
+	}
+}
+Naming Convension for Constant
+
+All in Capital Letter
+final int BONUS=10;
+final String STATUS="pending";
+
+Naming Convension for keywords
+
+All in small letter
+
+class, interface, for, break etc;
+
+//Well documented code
+//Properly indented
+//Use meaning ful name
+//well commented
+
+class abc
+{
+	main()
+	{
+		for()
+		{
+			if()
+			{
+				switch()
+				{
+
+				}
+			}
+		}
+	}
+}
+
+import section;
+
+//Declaration Section
+general declaration
+variable, constants, array
+
+{
+}
+
+{
+}
+
+
+
+
+
+

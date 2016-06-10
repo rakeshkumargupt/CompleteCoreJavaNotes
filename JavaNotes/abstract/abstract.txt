@@ -1,0 +1,71 @@
+Abstraction - It is the process by which we can hide complexity of a system and expose only the functionality rather than implementation.
+
+it can be achieved using the following:
+
+Data abstraction - 
+
+Function abstraction -
+
+Data Abstract - it is also called ADT (Abstract Data Type) by using this we can prepare a general prototype of the system by defining all the common types of data member.
+
+In case of abstract data the class is defind abstract so that it cannot be directly implemented rather it must be inherited by some other class to complete the definition before using the class.
+
+To do so we create an abstract class using abstract keyword which is the general prototype of the given system.
+
+when a class is declared abstract then its object cannot be created.
+
+abstract method - it is a method that has no implementation or body but only the signature is defined.
+
+if class a any abstract method then the class must be abstract
+
+if an abstract class is inherited by another class then it must provide the body of abstract method other declare that class a  abstract.
+
+abstract class provides only partial abstraction but using the interface we can achieve full abstract.
+
+Interfaces are like the fully abstract class that provides full abstract as none of its method can contain the body.
+
+Using interface we can also have the feature of multiple inheritance.
+
+all the methods in the interface are abstract by default.
+
+all the methods in the interface are public by default.
+
+Interface cannot contain variable but it can contain constant.
+
+Interface can extends another interface.
+
+A class uses implements keyword to implement an interface.
+A class must provide the body of all the abstract method of the interface.
+
+
+
+
+
+what are the different modifers for class?
+default, public,abstract, final,
+private (x)
+protected (x)
+
+Note: in case of nested / inner class a class can be declared as private or protected.
+
+or 
+what are the different types of class?
+
+1. Concrete Class - 
+it is class that can be inherited and instantiated
+2. Abstract Class - 
+it is class that can be inherited but cannot be instantiated
+3. Final Class -
+it is class that can be not inherited but can be instantiated
+4. Nested / Inner Class -
+  it is class inside the scope of another class, the inner class is   bound by the scope of outer class.
+5. Anonymous class - A class having no name.
+ 
+
+
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+class cond03
+{
+public static void main(String args[])
+	{
+		int a=Integer.parseInt(args[0]);
+		
+			if(a==5)
+				{
+				System.out.println("You Win!!!");
+				System.out.println("Congrats!!!");
+				}
+			else
+				System.out.println("You loose!!!");
+				System.out.println("Visit again!!!");
+			
+	}
+}

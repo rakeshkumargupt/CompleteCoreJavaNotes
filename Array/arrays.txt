@@ -1,0 +1,20 @@
+
+extended for /advance for /foreach loop
+- java 5 onwards
+
+for(int i=0;i<5;i++)
+	{
+		System.out.print(arr[i]);
+		
+	}
+
+for(var type : collection_name)
+
+Collection - can dynamically grow and shrink their sizes as we add or remove the items.
+
+
+int arr[]=new int[5];
+
+
+
+

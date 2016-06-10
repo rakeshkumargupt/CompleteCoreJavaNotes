@@ -1,0 +1,17 @@
+import java.awt.*; //to include Graphic class
+import java.applet.*; //to include applet class
+
+class myapplet extends Applet
+{
+
+//write the necessary code
+
+}
+
+compile the program file using javac
+
+To Run the applet program we have two approaches
+
+1. using HTML embed applet code
+2. using appletviewer provided by jdk
+

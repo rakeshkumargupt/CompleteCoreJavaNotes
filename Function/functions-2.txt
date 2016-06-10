@@ -1,0 +1,10 @@
+function different ways to supply values to the function:
+
+1. Call by value	- in this case the copy of the variable is supplied, so the changes are made only in the local copy and are not reflected back in the original variable.
+
+all the primtive types are call by value.
+
+2. Call by reference - in this case we supply the address / reference so the change are reflected in the original variable, so the changes will be global, all the objects are passed by reference.
+
+
+

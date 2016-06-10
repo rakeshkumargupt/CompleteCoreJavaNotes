@@ -1,0 +1,163 @@
+Introduction to Java:
+
+Java is a Programming Language and a Platform.
+
+1. Console Programming i.e. C Language standard IO, non-gui programming
+2. Desktop Application GUI based programming but for Stand-alone, LAN based system
+3. Web Application - remotely access using the given URL.
+4. Web Services - Middle Tier Application /Middle Layer i.e. payment gateways / E-Commerce
+5. Smart Device Application - mobile apps
+
+Java was developed by James Gosling of the Sun Microsystem in 1995.
+
+Why java was developed? it was developed to sort out the problem of Machine dependent code, so that one need not to write or change the code if the machine configuration changes.
+
+OAK - Initially java was named oak.
+
+JAVA = full form , java has no acronym, it is just JAVA
+
+Java Features:
+
+1. Platform Independent / Architectural Neutral:-
+
+	College Management System  - Windows based Visual Basic
+
+	WORA = Write Once Run Anywhere
+
+C Source - Compile 
+Hello.c		Hello.obj	Hello.exe  (Machine Code)
+				Native Code
+
+Native Code / Machine Code Conversion was removed at the initial level,
+rather a byte code instruction was generated.
+
+Source ->Byte Code - WORA
+
+JVM = Java Virtual Machine.
+
+Byte Code=> during the execution process it converts it to the machine code.
+
+32 bit = 32 bit code
+64 bit = 64 bit code
+
+JVM - provides an enviroment for execution of byte code.
+JDK - Java Development Kit
+
+2. Simple - most of its syntax and concept are inherited from language like c/c++
+
+3. Object Oriented: Java is object oriented programming langauge so that it provides better modularity, code resuability, security etc.
+
+4. Multi-threaded: java was the first programming language that has provided the multi threaded programming facility to the programmer.
+
+5. Distributed: Java provides the facility of distributed programming using the RMI = Remote Method Invocation.
+
+6.Secured: java is highly secured because it does not provides access to the program outside the jvm, so it cannot harm your system, the bytecode verifier examines for any malicious /harmful code and prevents it from excecution.
+
+7. Compiled and intrepreted: it is both compiled and intrepreted, it is converted to the byte code by javac (compiler) and converted to native code using java intrepreter (java).
+
+8. Portable: java program can be easily transferred from one system to another it does not requires any setup file like for the window based application. i.e. jar file
+
+9. Scaleable: java is highly scalable. it can support the millions of user at a given point of time it is because java support multithreaded programming.
+
+10. Robust - Java is a robust programming language, it provides automatic garbage collection using thread called GC Thread ( Garbage Collection Thread),  by default it is low-priority thread but in case low resource it becomes the high priority thread and runs first of all.
+
+Thread is a light-weight process.
+
+Process - it is heavy weight
+
+CGI - Common Gateways
+
+
+
+
+
+
+Yahoo.co.in
+co.au
+co.ru
+
+
+Java Edition
+
+1. J2SE 
+	1. Console Programming i.e. C Language standard IO, non-gui programming
+	 Desktop Application GUI based programming but for Stand-alone, LAN based system
+2. J2EE
+	3. Web Application - remotely access using the given URL.
+	4. Web Services - Middle Tier Application /Middle Layer i.e. payment gateways / E-Commerce
+
+3. J2ME Java Micro Edition
+  Smart Device Application - mobile apps
+
+
+	Advance Java
+		JSP
+		Servlet
+		JDBC
+		JNDI
+		EMAIL
+		WebSevices
+
+	Java EE 
+		EJB = Enterprise Java Bean
+		JPA = Java Persistant API
+		
+Java Version:
+ 1.0 - first version
+ 1.1 - it is the first workable version 
+
+<major>.<minor>.<build>.<revision>
+
+jdk1.4.3.2
+
+1 = Major Version
+4 = Minor Version
+
+Accounting Application:
+
+MyAccountPlus		1.0    1
+MyAccountPlus		1.1    2  	
+MyAccountPlus		1.2    3
+
+VAT
+MyAccountPlus		2.0.4 VAT Enabled
+MyAccountPlus		2.1.5 VAT Enabled
+MyAccountPlus		2.2.6 VAT Enabled
+
+SAT
+MyAccountPlus		3.0 VAT+SAT Enabled
+
+MyAccountPlus		4.0 VAT+SAT + Inventory Enabled
+
+4.1.8.4
+
+to view java vesion type the following at cmd
+
+java -version
+
+SRS = Software Requirement Specification 2.1.5
+
+Important Component of JDK- 
+
+1. javac - java complier, to convert the source code into byte
+2. java - it is intepreter, program executes JVM
+3. appletview - to run applet program
+4. javadoc - to create java documentation
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+

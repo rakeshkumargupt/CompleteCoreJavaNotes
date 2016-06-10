@@ -1,0 +1,110 @@
+What is OOPS: It is problem solving methodology that enables you to decompose large program into smaller modules / units. The smallest unit of oops is a class /interface.
+
+Advantages of OOPS:
+1. Code Reusability
+2. Easy Maintainence
+3. Easy to Debug
+
+Features:
+
+1. class
+
+	Class: What is a class? A class is like a blueprint or template for its object, it is a logical representation of some real world entity. It wraps the data and method of the entity.
+
+What is Entity? it is name of person,place or things.
+
+person {student,faculty,employee }
+place {college_address,room }
+things {table,furniture,computer,fan }
+
+Entity has attributes and behaviour
+
+student {rollno,name,course,email,address,mobile }
+faculty {facultyid,name,qualification,types,salary }
+table {size, height, color,company }
+mobile_phone {sim,model, imei,battery
+
+make_call();
+send_sms();
+charging();
+
+}
+
+syntax:
+
+class <class_name>
+{  //class scope
+attributes;
+behaviours;
+}
+
+
+class student
+{
+	int rollno;
+	String name,course,email;
+}
+2. object - it is the physical representation of the class. 
+it is an instance of the class. We can access the member of the class with the help of its object / reference. 
+
+. (dot) symbol is a member access operator.
+
+member = Data Member + Member Function /method
+
+class member types
+	a. instance member - that can accessed by object, non-			     static member
+	b. class member - that are directly access by 			  classname.member_name, static member
+
+member scope
+	a. local scope
+	b. class scope / global
+
+
+
+3. encapsulation
+4. inheritance - 
+5. polymorphism
+6. abstraction
+
+coupling
+
+1. loose coupling / de-coupling
+2. tight coupling
+
+
+Laptop / Destop -  A System , What is a System? It is set of components put together to perform a particular task.
+
+Computer System
+
+	HDD
+	RAM
+	MB
+	KYB
+	Battery
+	VDU
+
+School Automation
+
+	Admission
+		FormSelling
+		FormVerification
+		FormSubmission
+		AdmitCardIssue
+	Fees
+	Library
+	Hostel
+	Mess
+	Examination
+
+
+OOPS - object oriented programming system.
+
+What is oops?
+
+SE - Software Engineering
+OOAD - Object Oriented Analysis and Desiging
+SAD 	- System Analysis and Desiging
+SSAD	- Structured System Analysis and Desiging
+
+AOP - Aspect Oriented Programming
+

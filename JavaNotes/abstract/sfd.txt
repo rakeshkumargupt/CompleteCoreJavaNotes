@@ -1,0 +1,9 @@
+interface Keyboard { }
+
+interface Mouse { } 
+
+
+class UserLogin implements Keyboard,Mouse, JoyStick
+{
+
+}

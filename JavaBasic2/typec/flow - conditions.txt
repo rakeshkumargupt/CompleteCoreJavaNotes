@@ -1,0 +1,43 @@
+Flow Control Statements in JAVA
+
+The flow control statements are used to control the flow of execution in the program.
+
+we can have following types of flow control statements : 
+
+1. Conditional Statements : the conditional statement are used to evaluate a condition and based on that further action is performed.
+we can have following type of conditional statements : 
+
+a. single line if - 
+	Syntax : 
+		if( <condition>)
+			statement
+
+Note : no statement for else part
+
+
+b. if else
+Syntax : 
+		if( <condition>)
+			statement
+		else
+			statement
+
+c. nested if : it is an if condition inside another if, the outer if is executed first and if it is true then the inner if will be checked and if both are true then the statement will execute.
+Syntax : 
+		if( <condition>) //outer if
+			if(<condition>) //inner if
+			statement
+			else
+			statement
+
+d. if else if ladder : in case of multiple conditions we can have if else if ladder in which the if condition are executed one by one like a ladder, if first condition fails then the second will execute otherwise rest of the conditions will be bypassed.
+Syntax : 
+		if( <condition>)
+			statement
+		else if(<condition>)
+			statement
+		else if(<condition>)
+			statement
+		else
+			statement
+

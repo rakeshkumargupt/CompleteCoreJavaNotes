@@ -1,0 +1,2 @@
+TreeMap - it is also a collection having key value pair,
+but it will arrange the items automatically in the ascending order of the keys. it is better for searching operation

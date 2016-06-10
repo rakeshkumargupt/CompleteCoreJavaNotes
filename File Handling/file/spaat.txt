@@ -1,0 +1,60 @@
+Handling File
+
+The java.IO package is used for providing the file handling facility in java, using this package we can read and write the data from different file, the file can be flat or CSV file, or even the object file.
+
+Flat file - ? File without and proper  format.
+What is Format ?  - .doc, .pdf, .jpg, .gif, .bmp, mp3
+CSV File - ? Comma Separated Value File
+
+Name	Roll		Mark	 Email	 Address
+
+ram,1020240,400,ram@gmail.com,505civil
+
+XML - 
+HTML - 
+Database  Oracle - Table Data Structure
+Create table Student(name varchar(10), rollno int, marks int));
+
+Stream - 
+(a) Byte Stream - ASCII code 0-255 1 byte = 8 bit
+(b) Character Stream - Unicode 2 byte = 16 bit, all characters of all the languages of world can be represented in this.
+
+Types of Console-
+(a) Input Console  - System.in
+(b) Output Console - System.out
+(c) Error Console  - System.err
+
+Input Sources / types:
+(a). Keyboard by default
+(b). File 
+(c). Socket (Networking)
+Output:
+(a). Monitor by default
+(b). File 
+(c). Output devices i.e. printer, plotter
+Error Console: 
+(a). Monitor by default
+(b). File 
+
+Important class of Java.IO Package:
+
+InputStreamReader class - to represent the input stream to be used for accepting input from the user.
+
+BufferedReader class - this class provide necessary method to read the data from the associated inputstream and can be used to store the data in a variable.
+
+read() - this method of the BufferedReader class will read a single character from the user and will return the ASCII equivalent of the char.
+
+readLine() - it will read and return the string entered by the user
+
+
+FileInputStream class - it is used to read the input from the file.
+read() - this method of the BufferedReader class will read a single character from the user and will return the ASCII equivalent of the char.
+
+
+
+
+
+Hi,
+Welcome Administrator.
+Thanks!
+ÿ

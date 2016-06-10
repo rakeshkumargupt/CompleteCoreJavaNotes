@@ -1,0 +1,61 @@
+Arrays:  What is array - it is the collection of similary types of data elements i.e. homogenous data items, having contiguous memory blocks assigned.
+
+Types of Arrays:
+Index based array: every item is identified by a unique index / subscript
+
+1. based upon dimension
+
+	a. One Dimensional - 
+	b. Multi Dimensional
+	c. Jagged Array / non rectangular array - in this type of array we can have the flexi sized array based upon our need.
+
+2. based upon memory allocation: 
+	a. dynamic array
+	b. static array
+
+3. Key based array - in this type of array we use alphanumeric key rather than index, it is generally the key value pair type, the key must be unique and value can be duplicate.
+
+ex. index based array
+	country[0] = 9111111;
+	country[1] =9222222;
+	country[2] =933333;
+
+ex. key based array
+	country["IND_Number"] = 9111111;
+	country["USA_Number"] =9222222;
+	country["AUS_Number"] =933333;
+
+it is called KVP - key value pair, and is generally used in collection
+
+
+Declaring Array:
+
+Syntax:
+
+<data_type> <array_name>[];
+<data_type> []<array_name>;
+
+1. Two Step Declaration
+
+	<data_type> <array_name>[];
+
+		<array_name> = new <array_type>[];
+
+2. One Step Declaration
+	<data_type> <array_name> = new <array_type>[];
+
+Note: Array is also an object in java.
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+

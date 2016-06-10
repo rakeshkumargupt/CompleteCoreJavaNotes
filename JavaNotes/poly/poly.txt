@@ -1,0 +1,62 @@
+Polymorphism - Poly means many, morphs means form,
+
+	having multiple forms.
+
+it is the abilty to take multiple form for method of class, because of this we can have multiple behavior for the same function name.
+
+It occurs in two ways:
+
+1. Compile Time Polymorphism - it is also called early binding as it occurs during the compilation process.
+
+It is provided using the concept of Method Overloading.
+
+2. Run Time Polymorphism - it is also called late binding as it occurs during execution/runtime.
+
+
+It is provided using the concept of Method Overriding.
+
+
+Compile Time Polymorphism - 
+
+Method Overloading - 
+
+class calculator
+{
+int sum(int a,int b);
+int sum(String a,String b);
+}
+
+sum(5,10);
+sum("A","B");
+
+Method Overloading - it is the process in which we can the function with the same name but different parameters in the same class.
+
+We can overload a function as follows:
+
+1. changing no. of parameters
+	sum(int ,int), sum(int ,int , int )
+2. changing the data type of parameters
+	sum(int ,int) sum (String ,String)
+3. changing the data type sequence
+	sum(int ,string) sum(string ,int)
+
+but we cannot overload a function by changing its return type.
+
+
+Method Overriding: it is the case of inheritance in which the parent class method is overriden by its child class method if the method name and signature is same in both the class.
+
+The child and the parent class must have the same method name and same signature for overriding.
+
+Pointer are not type safe.
+
+Object
+
+Method Overloading vs Method Overriding
+1. Method overloading occurs in same class, while overrding must have two class
+
+2. Method overloading signature must be different for two methods, in
+overrding the signture must be same in parent and child class for overrding to occur.
+
+
+
+Abstraction - 

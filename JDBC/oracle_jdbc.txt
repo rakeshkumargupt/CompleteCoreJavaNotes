@@ -1,0 +1,39 @@
+Connecting to Oracle:
+
+1. start oracle
+
+2. connect using the following:
+	
+	username: system
+	password: at the time of installation
+
+3. create new user schema:
+
+	create user library identified by library;
+
+4. grant privilege to the user:
+
+	grant dba to library;
+
+5. connect to new user schema i.e. 
+
+	connect library/library
+
+6. create table to store the data from category form:
+
+	create table category(code varchar(10) primary key, name varchar(20),description varchar(30));
+
+7. To view the table created by you type the following:
+
+	select * from tab;
+
+8. To view the data in table type:
+
+	select * from category;
+
+9. Write the program to connect to oracle server and store the data into category table.
+
+
+
+
+

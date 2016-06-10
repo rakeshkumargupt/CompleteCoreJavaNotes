@@ -1,0 +1,50 @@
+Installing Java.....
+
+writing a java program....
+
+compiling the java program
+
+javac - it is compiler available in JDK that is used to compile the program and create a .class file which is in the byte code.
+
+setting the jdk path...
+
+compile syntax:
+
+javac <filename>
+i.e.
+javac Hello.java
+
+Hello.java ------> Source Code
+Hello.class------> Byte Code / Intermediate code
+
+Executing java program:
+to execute java program after compiling we need Java Intrepretor
+that is also found in the JDK
+
+Syntax:
+java <filename>
+
+Process:
+1. Write the program - notepad
+2. Compile the program - javac
+3. Execute the program - java
+
+Accepting data from user using CLA = Command Line Arguement, it is the most basic way of accepting the data from the user during the program.
+it will collect all the data in the String args[] array,
+the first element will be at 0 index of the array.
+
+The agruments will be separated by white space.
+
+All the arguments supplied by command line are stored in the string array so they are of String data type.
+
+To handle other types we can use the type casting process.
+i.e. 
+Adding two numbers by accepting them from the command line.
+
+
+
+
+
+
+
+

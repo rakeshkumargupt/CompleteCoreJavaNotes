@@ -1,0 +1,13 @@
+Firstly Enter Home key*R
+and Enter notepad
+And then Write your program and save program to aspecific folder
+that you can access easly
+Again press Home key*R
+and type cmd
+and then type cd \
+and then type H:
+and then type cd practice
+and then Enter javac YOUR_PROGRAM_NAME
+after it type java YOUR_PROGRAM_NAME
+and your program will show your output
+HAHAHAHHAHHAHAHHAHA....................YOUR PROGRAM IS SUCCESSFULY RUN 

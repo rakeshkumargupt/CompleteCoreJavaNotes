@@ -1,0 +1,43 @@
+import java.awt.*;
+import java.applet.*;
+import java.awt.event.*; //event handling in awt
+
+/*
+<applet code="Login1.class" width=500 height=500>
+</applet>
+*/
+public class Login1 extends Applet implements ActionListener
+{
+//declare variable
+Label l1,l2,l3;
+TextField t1,t2,t3;
+Button b1;
+
+	public void start()
+	{
+	l1 = new Label("Username : ");
+	l2 = new Label("Password : ");
+	t1 = new TextField(20);
+	t2 = new TextField(20);
+	b1 = new Button("Login");
+	l3 = new Label("Result : ");
+	t3 = new TextField(20);
+	b1.addActionListener(this);	
+	add(l1);
+	add(t1);
+	add(l2);
+	add(t2);
+	add(l3);
+	add(t3);
+	add(b1);	
+	}
+
+	public void actionPerformed(ActionEvent e)
+	{
+		String s1 = t1.getText();
+		String s2 = t2.getText();
+		int n = Integer.parseInt(s1) + Integer.parseInt(s2);
+		String s3 = String.valueOf(n);
+		t3.setText(s3);
+	}
+}

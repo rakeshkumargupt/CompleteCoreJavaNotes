@@ -1,0 +1,110 @@
+Using Multithreading : 
+it is the process by which we can have multiple task in an application by sharing the cpu time. 
+	The thread can be defined as the light weight process by which we can have no. of threads in a process running asynchronsly to perform different kind of tasks.	
+
+All the threads have the independent path of execution, and they share the same address space.
+
+
+STA - Single Threaded Application	
+MTA - Multi "		"
+CPU Total Time =  Divided into time slice , which is allocted to individual threads one by one by switching
+
+Process Heavy weight - an Application MS- word
+		grammer checking , spell checking 
+
+Creating Thread : 
+Two ways :
+1. Extending the Thread Class
+2. Implementing the Runnable Interface
+
+class ABC extends Thread
+{
+void run()  - entry point for the thread
+{
+}
+}
+
+class ABC implements Runnable
+{
+void run()  - entry point for the thread
+{
+}
+
+}
+
+class 
+
+Task
+2 table - loop
+5 table - loop2
+
+
+
+class A 
+{
+
+for(int a=0;a<50;a++)
+sop(a)
+
+for(int b=0;b<50;b++)
+sop(b)
+
+for(int c=0;c<50;c++)
+sop(c)
+
+}
+
+cpu 1 min 
+60 sec  / 3 threads
+1 - 20  mili secs allocate time slice
+
+
+
+class XYZ Implements Runnable
+{
+void run()  - entry point for the thread
+{
+}
+}
+
+Process - 
+1. create  a class that will inherit the Thread class or Runnable Interface
+2. Implement the run()
+3. Create another class (having main method or startup point) to call the thread by creating its object
+4. using the start() to run the thread
+
+
+join() - is used to synchronised the threads.
+one after another
+child completed --- main finish
+isAlive  - to check whether the thread is active or not
+
+synchronized - this keyword can be used with run method to
+make the synchronous execution of the threads
+
+currentThread() - this method returns the name of the currently
+running thread
+
+setName() - to change the name of thread
+getName()- to get the name
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

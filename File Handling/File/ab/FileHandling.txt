@@ -1,0 +1,28 @@
+
+class InputStreamReader 
+{
+InputStreamReader (IODevice)
+	{
+
+	}
+}
+
+class BufferredReader {
+
+BufferredReader(InputStreamReader io)
+	{
+
+	}
+}
+
+class BRRead {
+public static void main(String arg[])
+{
+InputStreamReader io = new InputStreamReader(System.in);
+BufferedReader br = new BufferedReader(io);
+
+or
+
+BufferedReader br = new
+BufferedReader(new InputStreamReader(System.in));
+}

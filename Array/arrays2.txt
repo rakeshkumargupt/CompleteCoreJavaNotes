@@ -1,0 +1,85 @@
+Scanner
+Printer
+Plotter
+
+import java.util.Scanner;
+
+main()
+{
+Scanner obj = new Scanner(System.in); //ok
+Printer obj2 = new Printer(System.out); //wrong
+}
+
+or
+import java.util.Scanner;
+import java.util.Printer;
+
+main()
+{
+Scanner obj = new Scanner(System.in); //ok
+Printer obj2 = new Printer(System.out); //ok
+}
+
+or
+import java.util.*;
+main()
+{
+Scanner obj = new Scanner(System.in); //ok
+Printer obj2 = new Printer(System.out); //ok
+}
+
+* is a wildcard that tell to import all the classes and interfaces from the package.
+
+
+void add(int a, int b)
+{
+return a+b;
+}
+
+add(5,10);
+
+String m = "Enter Data for " + i+","+j + " : " ;
+System.out.println(String msg)
+
+System.out.println(m);
+int r = x+y;
+System.out.println(r);
+
+
+//example of jagged array
+            int [][]arr = new int[4][];
+            arr[0]= new int[2];
+            arr[1] = new int[3];
+            arr[2] = new int[4];
+            arr[2] = new int[1];
+            arr[0][0] = 11;
+            arr[0][1] = 12;
+
+
+WAP to accept the data in 2 array of 5 elements in each
+and display the following as per user's choice:
+
+You Choice [1-5]
+1. sum of all array elements
+2. avg of all array elements
+3. sum of all of all odd and  even no.
+4. intersection of both arrays
+6. ask for an airtmetic symbol i.e. +, - *, / and then perfom the operation
+5. exit
+Choice : ? ____
+
+a1   -	a2	Result
+1	1        0
+2	2        0
+1	1
+2	2
+1	2
+---    ---
+7   +    8   = 15
+
+
+
+
+
+
+

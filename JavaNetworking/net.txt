@@ -1,0 +1,35 @@
+http://localhost:8080/myhome/hello.html
+
+http = protocol - it is set of standard rules or regulation
+
+localhost = Domain Name i.e. www.google.com
+
+:8080 = port number; logical port not physical port total logical port in a system is 65534 (dobule the size of short int)
+
+port must be free in order to connect
+
+types of ports:
+
+1. Reserved ports - these are set for particular task/service total 1024 reserved ports i.e.
+80 -http
+25 - smtp
+21 - ftp
+22 sftp
+
+Client Server Application -two program are created:
+
+1. Server Side - Sever Socket
+2. Client Side - Server Socket Listen request sending
+
+DNS - Domain Name Server 
+
+www.google.com	->	192.168.12.1
+www.yahoo.com	->	192.68.12.1
+
+
+
+
+
+
+
+
